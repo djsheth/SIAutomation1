@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 17715
+Size: 0
+Timestamp: Fri Jul 20 12:30:09 EDT 2018
+TestStep: Groovy Script1
+
+----------------- Messages ------------------------------

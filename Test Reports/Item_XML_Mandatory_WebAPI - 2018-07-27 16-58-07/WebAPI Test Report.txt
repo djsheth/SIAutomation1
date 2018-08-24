@@ -1,0 +1,18 @@
+TOTAL TEST CASES SUCCEED: 4 of 5
+
+- TestCase5 - SUCCEED 
+
+- TestCase1 - SUCCEED 
+
+- TestCase3 - SUCCEED 
+
+- TestCase4 - SUCCEED 
+
+---
+
+TOTAL TEST CASES FAILED: 1 of 5
+
+- TestCase2 - HAS FAILED 
+
+
+

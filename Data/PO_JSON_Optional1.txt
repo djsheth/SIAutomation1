@@ -1,0 +1,72 @@
+{
+                "Header": {
+                                "Source": "${#TestCase#Source}",
+      "ActionType": "${#TestCase#ActionType}",
+      "MessageID": "${#TestCase#MessageID}",
+      "MessageType": "${#TestCase#MessageType}",
+      "CompanyID": "${#TestCase#CompanyID}",
+      "Locale": "${#TestCase#Locale}",
+      "TimeZone": "${#TestCase#TimeZone}",
+	"Version": "${#TestCase#Version}",
+      "ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+                },
+                "PurchaseOrders": {
+                                "PurchaseOrder": [
+                                                {
+                                                                "InvoiceNumber": "${#TestCase#InvoiceNumber}",
+        "ExternalPurchaseOrderId": "${#TestCase#ExternalPurchaseOrderId}",
+        "BillOfLading": "${#TestCase#BillOfLading}",
+        "DestinationFacility": "${#TestCase#DestinationFacility}",
+        "SupplierNumber": "${#TestCase#SupplierNumber}",
+        "PurchaseOrderDueDate": "${#TestCase#PurchaseOrderDueDate}",
+        "PurchaseOrderCancelDate": "${#TestCase#PurchaseOrderCancelDate}",
+        "PurchaseOrderStatus": "${#TestCase#PurchaseOrderStatus}",
+                                                                "FlexMapFields": {
+                                                                                "FlexMap": [
+                                                                                                {
+                                                                                                                "Name": "${#TestCase#Name}",
+                                                                                                                "Value": "${#TestCase#Value}"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "Line": [
+                                                                                {
+                                                                                                  "LineNumber": "${#TestCase#LineNumber}",
+          "ItemName": "${#TestCase#ItemName}",
+          "ExternalSystemLineNumber": "${#TestCase#ExternalSystemLineNumber}",
+          "DeliveryStart": "${#TestCase#DeliveryStart}",
+          "ExpectedDate": "${#TestCase#ExpectedDate}",
+          "LineStatus": "${#TestCase#LineStatus}",
+          "OrderQuantity": "${#TestCase#OrderQuantity}",
+          "QuantityUOM": "${#TestCase#QuantityUOM}",
+          "LotNumber": "${#TestCase#LotNumber}",
+          "CountryOfOrigin": "${#TestCase#CountryOfOrigin}",
+	"InventoryAttribute1": "${#TestCase#InventoryAttribute1}",
+	"InventoryAttribute2": "${#TestCase#InventoryAttribute2}",
+	"InventoryAttribute3": "${#TestCase#InventoryAttribute3}",
+	"InventoryAttribute4": "${#TestCase#InventoryAttribute4}",
+	"InventoryAttribute5": "${#TestCase#InventoryAttribute5}",
+	"ReferenceField1": "${#TestCase#ReferenceField1}",
+	"ReferenceField2": "${#TestCase#ReferenceField2}",
+	"ReferenceField3": "${#TestCase#ReferenceField3}",
+	"ReferenceField4": "${#TestCase#ReferenceField4}",
+	"ReferenceField5": "${#TestCase#ReferenceField5}",
+          "ReferenceNumberField1": "${#TestCase#ReferenceNumberField1}",
+          "ReferenceNumberField2": "${#TestCase#ReferenceNumberField2}",
+          "ReferenceNumberField3": "${#TestCase#ReferenceNumberField3}",
+          "ReferenceNumberField4": "${#TestCase#ReferenceNumberField4}",
+          "ReferenceNumberField5": "${#TestCase#ReferenceNumberField5}",
+                                                                                                "FlexMapFields": {
+                                                                                                                "FlexMap": [
+                                                                                                                                {
+                                                                                                                                                "Name": "${#TestCase#Name}",
+                                                                                                                                                "Value": "${#TestCase#Value}"
+                                                                                                                                }
+                                                                                                                ]
+                                                                                                }
+                                                                                }
+                                                                ]
+                                                }
+                                ]
+                }
+}

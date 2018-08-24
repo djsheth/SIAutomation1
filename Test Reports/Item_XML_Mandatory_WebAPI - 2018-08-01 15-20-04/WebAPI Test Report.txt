@@ -1,0 +1,48 @@
+TOTAL TEST CASES SUCCEED: 0 of 20
+
+---
+
+TOTAL TEST CASES FAILED: 20 of 20
+
+- TestCase20 - HAS FAILED 
+
+- TestCase10 - HAS FAILED 
+
+- TestCase11 - HAS FAILED 
+
+- TestCase13 - HAS FAILED 
+
+- TestCase6 - HAS FAILED 
+
+- TestCase9 - HAS FAILED 
+
+- TestCase18 - HAS FAILED 
+
+- TestCase7 - HAS FAILED 
+
+- TestCase15 - HAS FAILED 
+
+- TestCase5 - HAS FAILED 
+
+- TestCase3 - HAS FAILED 
+
+- TestCase4 - HAS FAILED 
+
+- TestCase12 - HAS FAILED 
+
+- TestCase19 - HAS FAILED 
+
+- TestCase16 - HAS FAILED 
+
+- TestCase1 - HAS FAILED 
+
+- TestCase2 - HAS FAILED 
+
+- TestCase14 - HAS FAILED 
+
+- TestCase8 - HAS FAILED 
+
+- TestCase17 - HAS FAILED 
+
+
+

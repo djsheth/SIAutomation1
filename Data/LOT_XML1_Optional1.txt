@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lot:FSCIPTransaction xmlns:lot="http://com.supplychain.fedex/lot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://com.supplychain.fedex/lot FedEx%20%20Supply%20Chain%20Standard%20Lot%20Interface.xsd">
+                <Header>
+                                <Source>${#TestCase#Source}</Source>
+                                <ActionType>${#TestCase#ActionType}</ActionType>
+                                <MessageId>${#TestCase#MessageId}</MessageId>
+                                <MessageType>${#TestCase#MessageType}</MessageType>
+                                <CompanyID>${#TestCase#CompanyID}</CompanyID>
+                                <Locale>${#TestCase#Locale}</Locale>
+                                <TimeZone>${#TestCase#TimeZone}</TimeZone>
+                                <Version>${#TestCase#Version}</Version>
+                                <ReferenceId>${#TestCase#ReferenceId}</ReferenceId>
+                                <ExternalDateTimeStamp>${#TestCase#ExternalDateTimeStamp}</ExternalDateTimeStamp>
+                </Header>
+                <Lots>
+                                <Lot>
+                                                <DestinationFacilityName>${#TestCase#DestinationFacilityName}</DestinationFacilityName>
+                                                <LotNumber>${#TestCase#LotNumber}</LotNumber>
+                                                <StatusCode>${#TestCase#StatusCode}</StatusCode>
+                                                <ItemName>${#TestCase#ItemName}</ItemName>
+                                                <ExpireDate>${#TestCase#ExpireDate}</ExpireDate>
+                                                <ExpireFlag>${#TestCase#ExpireFlag}</ExpireFlag>
+                                                <ManufactureRecallDate>${#TestCase#ManufactureRecallDate}</ManufactureRecallDate>
+                                                <ManufactureRecallFlag>${#TestCase#ManufactureRecallFlag}</ManufactureRecallFlag>
+                                                <ILpnLockCodeHeld>${#TestCase#ILpnLockCodeHeld}</ILpnLockCodeHeld>
+                                                <ILpnLockCodeExpiredRecord>${#TestCase#ILpnLockCodeExpiredRecord}</ILpnLockCodeExpiredRecord>
+                                                <PickLockCodeHeld>${#TestCase#PickLockCodeHeld}</PickLockCodeHeld>
+                                                <PickLockCodeExpiredRecord>${#TestCase#PickLockCodeExpiredRecord}</PickLockCodeExpiredRecord>
+                                                <AuthorisationNumber>${#TestCase#AuthorisationNumber}</AuthorisationNumber>
+                                                <BusinessPartner>${#TestCase#BusinessPartner}</BusinessPartner>
+                                                <BusinessPartnerBatchNumber>${#TestCase#BusinessPartnerBatchNumber}</BusinessPartnerBatchNumber>
+                                                <SpecialInstructionCode1>${#TestCase#SpecialInstructionCode1}</SpecialInstructionCode1>
+                                                <SpecialInstructionCode2>${#TestCase#SpecialInstructionCode2}</SpecialInstructionCode2>
+                                                <MiscellaneousInstructionCode1>${#TestCase#MiscellaneousInstructionCode1}</MiscellaneousInstructionCode1>
+                                                <MiscellaneousInstructionCode2>${#TestCase#MiscellaneousInstructionCode2}</MiscellaneousInstructionCode2>
+                                                <NumericValue1>${#TestCase#NumericValue1}</NumericValue1>
+                                                <NumericValue2>${#TestCase#NumericValue2}</NumericValue2>
+                                </Lot>
+                </Lots>
+</lot:FSCIPTransaction>

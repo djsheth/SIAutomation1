@@ -1,0 +1,52 @@
+TOTAL TEST CASES SUCCEED: 21 of 22
+
+- TestCase2 - SUCCEED 
+
+- TestCase6 - SUCCEED 
+
+- TestCase16 - SUCCEED 
+
+- TestCase3 - SUCCEED 
+
+- TestCase11 - SUCCEED 
+
+- TestCase17 - SUCCEED 
+
+- TestCase4 - SUCCEED 
+
+- TestCase8 - SUCCEED 
+
+- TestCase1 - SUCCEED 
+
+- TestCase13 - SUCCEED 
+
+- TestCase9 - SUCCEED 
+
+- TestCase14 - SUCCEED 
+
+- TestCase12 - SUCCEED 
+
+- TestCase22 - SUCCEED 
+
+- TestCase18 - SUCCEED 
+
+- TestCase7 - SUCCEED 
+
+- TestCase20 - SUCCEED 
+
+- TestCase10 - SUCCEED 
+
+- TestCase5 - SUCCEED 
+
+- TestCase19 - SUCCEED 
+
+- TestCase15 - SUCCEED 
+
+---
+
+TOTAL TEST CASES FAILED: 1 of 22
+
+- TestCase21 - HAS FAILED 
+
+
+

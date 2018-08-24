@@ -1,0 +1,41 @@
+{
+	"Header": {
+		"Source": "${#TestCase#Source}",
+		"ActionType": "${#TestCase#ActionType}",
+		"MessageID": "${#TestCase#MessageID}",
+		"MessageType": "${#TestCase#MessageType}",
+		"CompanyID": "${#TestCase#CompanyID}",
+		"Locale": "${#TestCase#Locale}",
+		"TimeZone": "${#TestCase#TimeZone}",
+		"Version": "${#TestCase#Version}",
+		"ReferenceID": "${#TestCase#ReferenceID}",
+		"ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+	},
+	"Lots": {
+		"Lot": [
+			{
+				"DestinationFacilityName": "${#TestCase#DestinationFacilityName}",
+				"LotNumber": "${#TestCase#LotNumber}",
+				"StatusCode": ${#TestCase#StatusCode},
+				"ItemName": "${#TestCase#ItemName}",
+				"ExpireDate": "${#TestCase#ExpireDate}",
+				"ExpireFlag": "${#TestCase#ExpireFlag}",
+				"ManufactureRecallDate": "${#TestCase#ManufactureRecallDate}",
+				"ManufactureRecallFlag": "${#TestCase#ManufactureRecallFlag}",
+				"ILpnLockCodeHeld": "${#TestCase#ILpnLockCodeHeld}",
+				"ILpnLockCodeExpiredRecord": "${#TestCase#ILpnLockCodeExpiredRecord}",
+				"PickLockCodeHeld": "${#TestCase#PickLockCodeHeld}",
+				"PickLockCodeExpiredRecord": "${#TestCase#PickLockCodeExpiredRecord}",
+				"AuthorisationNumber": "${#TestCase#AuthorisationNumber}",
+				"BusinessPartner": "${#TestCase#BusinessPartner}",
+				"BusinessPartnerBatchNumber": "${#TestCase#BusinessPartnerBatchNumber}",
+				"SpecialInstructionCode1": "${#TestCase#SpecialInstructionCode1}",
+				"SpecialInstructionCode2": "${#TestCase#SpecialInstructionCode2}",
+				"MiscellaneousInstructionCode1": "${#TestCase#MiscellaneousInstructionCode1}",
+				"MiscellaneousInstructionCode2": "${#TestCase#MiscellaneousInstructionCode2}",
+				"NumericValue1": ${#TestCase#NumericValue1},
+				"NumericValue2": ${#TestCase#NumericValue2}
+			}
+		]
+	}
+}

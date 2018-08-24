@@ -1,0 +1,133 @@
+{
+                "Header": {
+                                "Source": "${#TestCase#Source}",
+                                "ActionType": "${#TestCase#ActionType}",                             
+                                "MessageType": "${#TestCase#MessageType}",
+                                "CompanyID": "${#TestCase#CompanyID}",                       
+                                "ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+                },
+                "Items": {
+                                "Item": [
+                                                {
+                                                                "ItemName": "${#TestCase#ItemName}",                                                          
+                                                                "Description": "${#TestCase#Description}",
+                                                                "LongDescription": "combo",
+                                                                "NMFCFreightClass": 92.5,
+                                                                "CommodityCode": "HANDBAG",
+                                                                "StorageUOM": "PK",
+                                                                "ItemUpcGtin": "1138837638",
+                                                                "ItemProfileName": "${#TestCase#ItemProfileName}",
+                                                                "NetWeight": 8,
+                                                                "GrossWeight": 7,
+                                                                "WeightUOM": "Lbs",
+                                                                "UnitVolume": 8,
+                                                                "VolumeUOM": "Cu Inch",
+                                                                "UnitHeight": 9,
+                                                                "UnitWidth": 11,
+                                                                "UnitLength": 12,
+                                                                "DimensionUOM": "Inch",
+                                                                "DisplayQuantityUOM": "${#TestCase#DisplayQuantityUOM}",
+                                                                "CommodityLevelDescription": "FIFTY",
+                                                                "ChannelType": 20,
+                                                                "ItemBarCode": "8949489",
+                                                                "ProductType": 0,
+                                                                "StdBundlQty": 3.4,
+                                                                "ItemProfileName   ": "HNYCMB",
+                                                                "TypeCode": null,
+                                                                "DefaultAssetType": "STR",
+                                                                "ReferenceField7": "a",
+                                                                "ReferenceField8": "a",
+                                                                "ReferenceField9": "a",
+                                                                "ReferenceField10": "a",
+                                                                "ReferenceNumberField2": 1.1,
+                                                                "ReferenceNumberField3": 1.1,
+                                                                "ReferenceNumberField4": 1.1,
+                                                                "ReferenceNumberField5": 1.1,
+                                                                "VelocityCode": "R",
+                                                                "Make": 0,
+                                                                "Model": "TPS",
+                                                                "LPNType": "BOX",
+                                                                "UnitPrice": 9.9,
+                                                                "RetailPrice": 767.2,
+                                                                "MaximumReceivingToexpireDays": 9999999,
+                                                                "AverageDailyDemand": 9.999,
+                                                                "ConsumePriorityDateCode": "M",
+                                                                "ConsumePriorityDateWindow": "*MONTH",
+                                                                "ConsumePriorityDateWindowIncrement":1,
+                                                                "CritclDim1": 13.09,
+                                                                "CritclDim2": 13.09,
+                                                                "CritclDim3": null,
+                                                                "ManufacturingDateRequired": "N",
+                                                                "ExpireDateRequired": "1",
+                                                                "LotRequired": "N",
+                                                                "DfltLotStatus" : "STR",
+                                                                "InventoryStatusRequired": "N",
+                                                                "CountryOfOriginRequired": "N",
+                                                                "ShelfDays": 8,
+                                                                "TemperatureZone": "C",
+                                                                "BuyerDispositionCode": "60",
+                                                                "StoreDepartment": "090",
+                                                                "ReceivableFlag": "*",
+                                                                "FreightClass": 92.5,
+                                                                "DfltLotStatus":0,
+                                                                "SerialNumberRequired": 1,
+                                                                "SerialNumberBarcodeType": "SBL",
+                                                                "MinorSrlNbrReq": 1,
+                                                                "DuplicateSerialNumberFlag": 1,
+                                                                "LPNDatePromptMethodFlag": 1,
+                                                                "MinimumReceiveToExpireDays": 999,
+                                                                "ProductCategory": null,
+                                                                "MarkForDeletion": 0,
+                                                                "FlexMapFields": {
+                                                                                "FlexMap": [
+                                                                                                {
+                                                                                                                "Name": "${#TestCase#Name}",
+                                                                                                                "Value": "${#TestCase#Value}"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "ItemSupplierXrefList": {
+                                                                                "ItemSupplierXref": [
+                                                                                                {
+                                                                                                  "SupplierItemBarcode": "${#TestCase#SupplierItemBarcode}",
+                                                                                                  "ScanQuantity": ${#TestCase#ScanQuantity} ,
+                                                                                                  "MarkForDeletion": 0
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "ItemFacilityWMSList": {
+                                                                                "ItemFacilityWMS": [
+                                                                                                {
+                                                                                                  "FacilityName": "${#TestCase#FacilityName}",
+                                                                                                  "LPNPerTier": 1,
+                                                                                                  "TierPerPallet": 1,
+                                                                                                  "QualityInspectGroup": "APR",
+                                                                                          "ItemFacilityProfileName" : "${#TestCase#ItemFacilityProfileName}"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "ItemPackageList": {
+                                                                                "ItemPackage": [
+                                                                                                {
+                                                                                                    "PackageUOM": "${#TestCase#PackageUOM}",
+                                                                                                    "NetWeight": 9.99,
+                                                                                                    "Quantity":${#TestCase#Quantity},
+                                                                                                    "WeightUOM": "Lbs",
+                                                                                                    "Gtin": "A",
+                                                                                                    "UnitLength": 1,
+                                                                                                    "UnitHeight":1,
+                                                                                                    "UnitWidth": 1,
+                                                                                                    "DimensionUOM": "Inch",
+                                                                                                    "UnitVolume": 32.4,
+                                                                                                    "VolumeUOM": "Cu Inch",
+                                                                                                    "isStandardUOM": 1,
+                                                                                                    "MarkForDeletion": 0
+                                                                                                }
+                                                                                ]
+                                                                }
+                                                }
+                                                                                                               
+                                               
+                                ]
+                }
+}

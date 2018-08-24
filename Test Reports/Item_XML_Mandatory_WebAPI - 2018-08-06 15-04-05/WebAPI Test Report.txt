@@ -1,0 +1,146 @@
+TOTAL TEST CASES SUCCEED: 20 of 69
+
+- TestCase17 - SUCCEED 
+
+- TestCase12 - SUCCEED 
+
+- TestCase10 - SUCCEED 
+
+- TestCase16 - SUCCEED 
+
+- TestCase7 - SUCCEED 
+
+- TestCase5 - SUCCEED 
+
+- TestCase4 - SUCCEED 
+
+- TestCase8 - SUCCEED 
+
+- TestCase18 - SUCCEED 
+
+- TestCase19 - SUCCEED 
+
+- TestCase2 - SUCCEED 
+
+- TestCase1 - SUCCEED 
+
+- TestCase14 - SUCCEED 
+
+- TestCase6 - SUCCEED 
+
+- TestCase9 - SUCCEED 
+
+- TestCase13 - SUCCEED 
+
+- TestCase3 - SUCCEED 
+
+- TestCase15 - SUCCEED 
+
+- TestCase11 - SUCCEED 
+
+- TestCase20 - SUCCEED 
+
+---
+
+TOTAL TEST CASES FAILED: 49 of 69
+
+- TestCase56 - HAS FAILED 
+
+- TestCase58 - HAS FAILED 
+
+- TestCase57 - HAS FAILED 
+
+- TestCase59 - HAS FAILED 
+
+- TestCase45 - HAS FAILED 
+
+- TestCase63 - HAS FAILED 
+
+- TestCase36 - HAS FAILED 
+
+- TestCase34 - HAS FAILED 
+
+- TestCase43 - HAS FAILED 
+
+- TestCase48 - HAS FAILED 
+
+- TestCase49 - HAS FAILED 
+
+- TestCase32 - HAS FAILED 
+
+- TestCase42 - HAS FAILED 
+
+- TestCase35 - HAS FAILED 
+
+- TestCase28 - HAS FAILED 
+
+- TestCase51 - HAS FAILED 
+
+- TestCase27 - HAS FAILED 
+
+- TestCase40 - HAS FAILED 
+
+- TestCase24 - HAS FAILED 
+
+- TestCase62 - HAS FAILED 
+
+- TestCase54 - HAS FAILED 
+
+- TestCase26 - HAS FAILED 
+
+- TestCase55 - HAS FAILED 
+
+- TestCase47 - HAS FAILED 
+
+- TestCase23 - HAS FAILED 
+
+- TestCase65 - HAS FAILED 
+
+- TestCase33 - HAS FAILED 
+
+- TestCase50 - HAS FAILED 
+
+- TestCase64 - HAS FAILED 
+
+- TestCase66 - HAS FAILED 
+
+- TestCase69 - HAS FAILED 
+
+- TestCase22 - HAS FAILED 
+
+- TestCase29 - HAS FAILED 
+
+- TestCase38 - HAS FAILED 
+
+- TestCase52 - HAS FAILED 
+
+- TestCase67 - HAS FAILED 
+
+- TestCase61 - HAS FAILED 
+
+- TestCase30 - HAS FAILED 
+
+- TestCase31 - HAS FAILED 
+
+- TestCase37 - HAS FAILED 
+
+- TestCase41 - HAS FAILED 
+
+- TestCase68 - HAS FAILED 
+
+- TestCase25 - HAS FAILED 
+
+- TestCase53 - HAS FAILED 
+
+- TestCase39 - HAS FAILED 
+
+- TestCase44 - HAS FAILED 
+
+- TestCase21 - HAS FAILED 
+
+- TestCase46 - HAS FAILED 
+
+- TestCase60 - HAS FAILED 
+
+
+

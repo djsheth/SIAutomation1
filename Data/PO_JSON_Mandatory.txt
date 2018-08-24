@@ -1,0 +1,61 @@
+{
+                "Header": {
+                                "Source": "${#TestCase#Source}",
+      "ActionType": "${#TestCase#ActionType}",
+      "MessageID": "${#TestCase#MessageID}",
+      "MessageType": "${#TestCase#MessageType}",
+      "CompanyID": "${#TestCase#CompanyID}",
+      "Locale": "English (United States)",
+      "TimeZone": "EST",
+      "ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+                },
+                "PurchaseOrders": {
+                                "PurchaseOrder": [
+                                                {
+                                                                "InvoiceNumber": "${#TestCase#InvoiceNumber}",
+        "ExternalPurchaseOrderId": "${#TestCase#ExternalPurchaseOrderId}",
+        "BillOfLading": "TGHU4585610",
+        "DestinationFacility": "${#TestCase#DestinationFacility}",
+        "SupplierNumber": "${#TestCase#SupplierNumber}",
+        "PurchaseOrderDueDate": "${#TestCase#PurchaseOrderDueDate}",
+        "PurchaseOrderCancelDate": "${#TestCase#PurchaseOrderCancelDate}",
+        "PurchaseOrderStatus": "${#TestCase#PurchaseOrderStatus}",
+                                                                "FlexMapFields": {
+                                                                                "FlexMap": [
+                                                                                                {
+                                                                                                                "Name": "a",
+                                                                                                                "Value": "a"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "Line": [
+                                                                                {
+                                                                                                  "LineNumber": "${#TestCase#LineNumber}",
+          "ItemName": "${#TestCase#ItemName}",
+          "ExternalSystemLineNumber": "00094",
+          "DeliveryStart": "2001-12-17T09:30:47Z",
+          "ExpectedDate": "2001-12-17T09:30:47Z",
+          "LineStatus": "${#TestCase#LineStatus}",
+          "OrderQuantity": "${#TestCase#OrderQuantity}",
+          "QuantityUOM": "EA",
+          "LotNumber": "${#TestCase#LotNumber}",
+          "CountryOfOrigin": "US",
+          "ReferenceNumberField1": "0",
+          "ReferenceNumberField2": "0",
+          "ReferenceNumberField3": "0",
+          "ReferenceNumberField4": "0",
+          "ReferenceNumberField5": "0",
+                                                                                                "FlexMapFields": {
+                                                                                                                "FlexMap": [
+                                                                                                                                {
+                                                                                                                                                "Name": "a",
+                                                                                                                                                "Value": "a"
+                                                                                                                                }
+                                                                                                                ]
+                                                                                                }
+                                                                                }
+                                                                ]
+                                                }
+                                ]
+                }
+}

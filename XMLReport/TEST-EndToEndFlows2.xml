@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SIAutomtion.EndToEndFlows2" tests="5" failures="5" errors="0" time="1.194"><properties><property name="soapui.properties" value="soapui.properties"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Software\SoapUI-5.4.0\jre\bin"/><property name="java.vm.version" value="25.152-b16"/><property name="soapui.ext.actions" value="C:\Software\SoapUI-5.4.0\bin\actions"/><property name="soapui.ext.libraries" value="C:\Software\SoapUI-5.4.0\bin\ext"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Software\SoapUI-5.4.0\bin"/><property name="java.runtime.version" value="1.8.0_152-b16"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Software\SoapUI-5.4.0\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\DHAVAL~1.SHE\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Software\SoapUI-5.4.0\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Users\dhavalkumar.sheth\Downloads\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Users\dhavalkumar.sheth\Downloads\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\bin;C:\Users\dhavalkumar.sheth\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\dhavalkumar.sheth\GitHubDesktop\bin;."/><property name="soapui.home" value="C:\Software\SoapUI-5.4.0\bin\"/><property name="sun.awt.enableExtraMouseButtons" value="true"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\dhavalkumar.sheth"/><property name="user.timezone" value="America/New_York"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Software\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\activation-1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\analytics-core-5.4.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\animal-sniffer-annotations-1.11.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\bcprov-jdk15-144.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\binding-2.0.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-beanutils-1.7.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-cli-1.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-codec-1.10.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-codec-1.3.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-collections-3.2.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-collections4-4.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-httpclient-3.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-io-2.4.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-lang-2.4.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-logging-1.1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\commons-logging-1.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\cssparser-0.9.5.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\dom4j-1.6.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\ezmorph-1.0.5.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\flex-messaging-common-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\flex-messaging-core-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\flex-messaging-opt-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\flex-messaging-proxy-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\flex-messaging-remoting-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\forms-1.0.7.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\google-http-client-1.21.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\google-oauth-client-1.21.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\groovy-all-2.4.4.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\guava-14.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\hamcrest-core-1.3.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\hermes-1.14.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\htmlunit-2.7.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\htmlunit-core-js-2.7.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\httpclient-4.1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\httpclient-cache-4.1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\httpcore-4.1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\httpcore-nio-4.1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\httpmime-4.1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\i4jruntime-5.1.14.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jackson-annotations-2.3.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jackson-core-2.3.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jackson-databind-2.3.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\javassist-3.16.1-GA.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jaxen-1.1-beta-8.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jcifs-1.2.9.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jdom-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jettison-1.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jetty-6.1.26.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jetty-util-6.1.26.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jms-1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\joda-time-1.6.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\js-1.7R2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\json-20090211.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\json-lib-2.2.2-jdk15.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\json-path-0.9.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\json-smart-1.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jsr173_api-1.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jsr305-1.3.9.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jtidy-r872-jdk15.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\junit-4.11.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\junit-4.12.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\jxl.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\keen-client-api-java-2.0.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\l2fprod-common-directorychooser-7.3.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\l2fprod-common-fontchooser-7.3.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\log4j-1.2.14.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\log4j-1.2.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\looks-2.2.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\mail-1.4.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\maven-plugin-api-2.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\mixpanel-java-1.4.4.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\nekohtml-1.9.14.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\not-yet-commons-ssl-0.3.11.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\ojdbc6.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\opensaml-2.5.1-1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\openws-1.4.2-1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\org.apache.oltu.oauth2.client-0.31.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\org.apache.oltu.oauth2.common-0.31.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\org.apache.oltu.oauth2.httpclient4-0.31.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\out-app-analytics-provider-5.4.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\poi-3.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\poi-examples-3.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\poi-excelant-3.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\poi-ooxml-3.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\poi-ooxml-schemas-3.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\poi-scratchpad-3.17.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\proxy-vole-20131209.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\reflections-0.9.9-RC1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\rsyntaxtextarea-2.5.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\sac-1.3.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\saxon-9.1.0.8j.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\saxon-dom-9.1.0.8j.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\serializer-2.7.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\servlet-api-2.5-20081211.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\slf4j-api-1.6.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\slf4j-log4j12-1.6.4.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\swingx-soapui.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\tools.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\ws-commons-util-1.0.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\wsdl4j-1.6.2-fixed.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\wss4j-1.6.16.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xalan-2.7.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xbean-fixed-2.4.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xbean_xpath-2.4.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xercesImpl-2.9.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xml-apis-1.3.04.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xml-apis-2.9.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xmlParserAPIs-2.6.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xmlpublic-2.4.0.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xmlsec-1.4.5.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xmltooling-1.3.2-1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xmlunit-1.2.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xom-1.1.jar;C:\Software\SoapUI-5.4.0\bin\..\lib\xstream-1.3.1.jar;C:\Software\SoapUI-5.4.0\jre\lib\jfxrt.jar"/><property name="user.name" value="dhavalkumar.sheth"/><property name="soapui.ext.listeners" value="C:\Software\SoapUI-5.4.0\bin\listeners"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="com.eviware.soapui.tools.SoapUITestCaseRunner -sEndToEndFlows2 -r -a -j -J -f C:\Users\dhavalkumar.sheth\Desktop\soap1\XMLReport C:\Users\dhavalkumar.sheth\Desktop\soap1\SIAutomtion.xml"/><property name="java.home" value="C:\Software\SoapUI-5.4.0\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_152"/><property name="java.ext.dirs" value="C:\Software\SoapUI-5.4.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Software\SoapUI-5.4.0\jre\lib\resources.jar;C:\Software\SoapUI-5.4.0\jre\lib\rt.jar;C:\Software\SoapUI-5.4.0\jre\lib\sunrsasign.jar;C:\Software\SoapUI-5.4.0\jre\lib\jsse.jar;C:\Software\SoapUI-5.4.0\jre\lib\jce.jar;C:\Software\SoapUI-5.4.0\jre\lib\charsets.jar;C:\Software\SoapUI-5.4.0\jre\lib\jfr.jar;C:\Software\SoapUI-5.4.0\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/></properties><testcase name="TestCase1" time="0.571"><properties><property name="ScanQuantity" value="1"/><property name="Comn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}" value="Comn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="ActionType" value="Create"/><property name="Description" value="REF SET 97"/><property name="CompanyID" value="Comn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="763332032179" value="763332032179"/><property name="Source" value="1.1"/><property name="FacilityName" value="a"/><property name="Name" value="a"/><property name="DisplayQuantityUOM" value="CMT"/><property name="Create" value="Create"/><property name="ItemName" value="Itemn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="PackageUOM" value="EA"/><property name="EA" value="EA"/><property name="ItemBarCode    " value="643169766600"/><property name="XMLFile1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;!--Sample XML file generated by XMLSpy v2017 sp2 (x64) (http://www.altova.com)-->
+&lt;itm:FSCIPTransaction xmlns:itm=&quot;fscip.fedex.com&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;fscip.fedex.com FedEx%20%20Supply%20Chain%20Standard%20Item%20Interface.xsd&quot;>
+    &lt;Header>
+        &lt;Source>${#TestCase#Source}&lt;/Source>
+        &lt;ActionType>${#TestCase#ActionType}&lt;/ActionType>
+        &lt;MessageType>${#TestCase#MessageType}&lt;/MessageType>
+        &lt;CompanyID>${#TestCase#CompanyID}&lt;/CompanyID>
+    &lt;/Header>
+    &lt;Items>
+        &lt;Item>
+            &lt;ItemName>${#TestCase#ItemName}&lt;/ItemName>
+            &lt;Description>${#TestCase#Description}&lt;/Description>
+            &lt;DisplayQuantityUOM>${#TestCase#DisplayQuantityUOM}&lt;/DisplayQuantityUOM>
+            &lt;ItemBarCode>${#TestCase#ItemBarCode}&lt;/ItemBarCode>
+            &lt;FlexMapFields>
+                &lt;FlexMap>
+                    &lt;Name>${#TestCase#Name}&lt;/Name>
+                    &lt;Value>${#TestCase#Value}&lt;/Value>
+                &lt;/FlexMap>
+            &lt;/FlexMapFields>
+            &lt;ItemSupplierXrefList>
+                &lt;ItemSupplierXref>
+                    &lt;SupplierItemBarcode>${#TestCase#SupplierItemBarcode}&lt;/SupplierItemBarcode>
+                    &lt;ScanQuantity>${#TestCase#ScanQuantity}&lt;/ScanQuantity>
+                &lt;/ItemSupplierXref>
+            &lt;/ItemSupplierXrefList>
+            &lt;ItemFacilityWMSList>
+                &lt;ItemFacilityWMS>
+                    &lt;FacilityName>${#TestCase#FacilityName}&lt;/FacilityName>
+                &lt;/ItemFacilityWMS>
+            &lt;/ItemFacilityWMSList>
+            &lt;ItemPackageList>
+                &lt;ItemPackage>
+                    &lt;PackageUOM>${#TestCase#PackageUOM}&lt;/PackageUOM>
+                    &lt;Quantity>${#TestCase#Quantity}&lt;/Quantity>
+                &lt;/ItemPackage>
+            &lt;/ItemPackageList>
+        &lt;/Item>
+    &lt;/Items>
+&lt;/itm:FSCIPTransaction>
+"/><property name="MessageType" value="ITEM"/><property name="a" value="a"/><property name="Itemn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}" value="Itemn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="Quantity" value="2"/><property name="643169766600" value="643169766600"/><property name="CMT" value="CMT"/><property name="REF SET 97" value="REF SET 97"/><property name="ITEM" value="ITEM"/><property name="1" value="1"/><property name="2" value="2"/><property name="1.1" value="1.1"/><property name="SupplierItemBarcode" value="763332032179"/><property name="Value" value="a"/></properties><failure type="Cancelling due to failed test step" message="Cancelling due to failed test step"><![CDATA[<h3><b>Groovy Script Failed</b></h3><pre>java.io.FileNotFoundException: C:\Users\dhavalkumar.sheth\Desktop\soap1\Data\EndToEndFlows2Input2.xls (The process cannot access the file because it is being used by another process)
+error at line: 20
+</pre><hr/>]]></failure></testcase><testcase name="TestCase2" time="0.187"><properties><property name="ScanQuantity" value="1"/><property name="ActionType" value="Create"/><property name="Description" value="REF SET 97"/><property name="CompanyID" value="Comn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="Quantity" value="5"/><property name="Source" value=""/><property name="FacilityName" value="b"/><property name="Name" value="a"/><property name="DisplayQuantityUOM" value="CMT"/><property name="SupplierItemBarcode" value="763332032180"/><property name="Value" value="b"/><property name="ItemName" value="Itemn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="PackageUOM" value="EA"/><property name="XMLFile1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;!--Sample XML file generated by XMLSpy v2017 sp2 (x64) (http://www.altova.com)-->
+&lt;itm:FSCIPTransaction xmlns:itm=&quot;fscip.fedex.com&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;fscip.fedex.com FedEx%20%20Supply%20Chain%20Standard%20Item%20Interface.xsd&quot;>
+    &lt;Header>
+        &lt;Source>${#TestCase#Source}&lt;/Source>
+        &lt;ActionType>${#TestCase#ActionType}&lt;/ActionType>
+        &lt;MessageType>${#TestCase#MessageType}&lt;/MessageType>
+        &lt;CompanyID>${#TestCase#CompanyID}&lt;/CompanyID>
+    &lt;/Header>
+    &lt;Items>
+        &lt;Item>
+            &lt;ItemName>${#TestCase#ItemName}&lt;/ItemName>
+            &lt;Description>${#TestCase#Description}&lt;/Description>
+            &lt;DisplayQuantityUOM>${#TestCase#DisplayQuantityUOM}&lt;/DisplayQuantityUOM>
+            &lt;ItemBarCode>${#TestCase#ItemBarCode}&lt;/ItemBarCode>
+            &lt;FlexMapFields>
+                &lt;FlexMap>
+                    &lt;Name>${#TestCase#Name}&lt;/Name>
+                    &lt;Value>${#TestCase#Value}&lt;/Value>
+                &lt;/FlexMap>
+            &lt;/FlexMapFields>
+            &lt;ItemSupplierXrefList>
+                &lt;ItemSupplierXref>
+                    &lt;SupplierItemBarcode>${#TestCase#SupplierItemBarcode}&lt;/SupplierItemBarcode>
+                    &lt;ScanQuantity>${#TestCase#ScanQuantity}&lt;/ScanQuantity>
+                &lt;/ItemSupplierXref>
+            &lt;/ItemSupplierXrefList>
+            &lt;ItemFacilityWMSList>
+                &lt;ItemFacilityWMS>
+                    &lt;FacilityName>${#TestCase#FacilityName}&lt;/FacilityName>
+                &lt;/ItemFacilityWMS>
+            &lt;/ItemFacilityWMSList>
+            &lt;ItemPackageList>
+                &lt;ItemPackage>
+                    &lt;PackageUOM>${#TestCase#PackageUOM}&lt;/PackageUOM>
+                    &lt;Quantity>${#TestCase#Quantity}&lt;/Quantity>
+                &lt;/ItemPackage>
+            &lt;/ItemPackageList>
+        &lt;/Item>
+    &lt;/Items>
+&lt;/itm:FSCIPTransaction>
+"/><property name="ItemBarCode    " value="643169766600"/><property name="MessageType" value="ITEM"/></properties><failure type="Cancelling due to failed test step" message="Cancelling due to failed test step"><![CDATA[<h3><b>Groovy Script Failed</b></h3><pre>java.io.FileNotFoundException: C:\Users\dhavalkumar.sheth\Desktop\soap1\Data\EndToEndFlows2Input2.xls (The process cannot access the file because it is being used by another process)
+error at line: 20
+</pre><hr/>]]></failure></testcase><testcase name="TestCase3" time="0.142"><properties><property name="ScanQuantity" value="1"/><property name="ActionType" value="Create"/><property name="Description" value="REF SET 97"/><property name="CompanyID" value="Comn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="Quantity" value="4"/><property name="Source" value="M1CSTRINGSTRINGSTRINGSTRINGSTRINGSTRINGSTRINGSTRIN"/><property name="FacilityName" value="c"/><property name="Name" value="b"/><property name="DisplayQuantityUOM" value="CMT"/><property name="SupplierItemBarcode" value="763332032181"/><property name="Value" value="a"/><property name="ItemName" value="Itemn${=System.currentTimeMillis() + ((int)(Math.random()*10000))}"/><property name="PackageUOM" value="EA"/><property name="XMLFile1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;!--Sample XML file generated by XMLSpy v2017 sp2 (x64) (http://www.altova.com)-->
+&lt;itm:FSCIPTransaction xmlns:itm=&quot;fscip.fedex.com&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;fscip.fedex.com FedEx%20%20Supply%20Chain%20Standard%20Item%20Interface.xsd&quot;>
+    &lt;Header>
+        &lt;Source>${#TestCase#Source}&lt;/Source>
+        &lt;ActionType>${#TestCase#ActionType}&lt;/ActionType>
+        &lt;MessageType>${#TestCase#MessageType}&lt;/MessageType>
+        &lt;CompanyID>${#TestCase#CompanyID}&lt;/CompanyID>
+    &lt;/Header>
+    &lt;Items>
+        &lt;Item>
+            &lt;ItemName>${#TestCase#ItemName}&lt;/ItemName>
+            &lt;Description>${#TestCase#Description}&lt;/Description>
+            &lt;DisplayQuantityUOM>${#TestCase#DisplayQuantityUOM}&lt;/DisplayQuantityUOM>
+            &lt;ItemBarCode>${#TestCase#ItemBarCode}&lt;/ItemBarCode>
+            &lt;FlexMapFields>
+                &lt;FlexMap>
+                    &lt;Name>${#TestCase#Name}&lt;/Name>
+                    &lt;Value>${#TestCase#Value}&lt;/Value>
+                &lt;/FlexMap>
+            &lt;/FlexMapFields>
+            &lt;ItemSupplierXrefList>
+                &lt;ItemSupplierXref>
+                    &lt;SupplierItemBarcode>${#TestCase#SupplierItemBarcode}&lt;/SupplierItemBarcode>
+                    &lt;ScanQuantity>${#TestCase#ScanQuantity}&lt;/ScanQuantity>
+                &lt;/ItemSupplierXref>
+            &lt;/ItemSupplierXrefList>
+            &lt;ItemFacilityWMSList>
+                &lt;ItemFacilityWMS>
+                    &lt;FacilityName>${#TestCase#FacilityName}&lt;/FacilityName>
+                &lt;/ItemFacilityWMS>
+            &lt;/ItemFacilityWMSList>
+            &lt;ItemPackageList>
+                &lt;ItemPackage>
+                    &lt;PackageUOM>${#TestCase#PackageUOM}&lt;/PackageUOM>
+                    &lt;Quantity>${#TestCase#Quantity}&lt;/Quantity>
+                &lt;/ItemPackage>
+            &lt;/ItemPackageList>
+        &lt;/Item>
+    &lt;/Items>
+&lt;/itm:FSCIPTransaction>
+"/><property name="ItemBarCode    " value="643169766700"/><property name="MessageType" value="ITEM"/></properties><failure type="Cancelling due to failed test step" message="Cancelling due to failed test step"><![CDATA[<h3><b>Groovy Script Failed</b></h3><pre>java.io.FileNotFoundException: C:\Users\dhavalkumar.sheth\Desktop\soap1\Data\EndToEndFlows2Input2.xls (The process cannot access the file because it is being used by another process)
+error at line: 20
+</pre><hr/>]]></failure></testcase><testcase name="TestCase4" time="0.14"><properties><property name="XMLFile1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;!--Sample XML file generated by XMLSpy v2017 sp2 (x64) (http://www.altova.com)-->
+&lt;itm:FSCIPTransaction xmlns:itm=&quot;fscip.fedex.com&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;fscip.fedex.com FedEx%20%20Supply%20Chain%20Standard%20Item%20Interface.xsd&quot;>
+    &lt;Header>
+        &lt;Source>${#TestCase#Source}&lt;/Source>
+        &lt;ActionType>${#TestCase#ActionType}&lt;/ActionType>
+        &lt;MessageType>${#TestCase#MessageType}&lt;/MessageType>
+        &lt;CompanyID>${#TestCase#CompanyID}&lt;/CompanyID>
+    &lt;/Header>
+    &lt;Items>
+        &lt;Item>
+            &lt;ItemName>${#TestCase#ItemName}&lt;/ItemName>
+            &lt;Description>${#TestCase#Description}&lt;/Description>
+            &lt;DisplayQuantityUOM>${#TestCase#DisplayQuantityUOM}&lt;/DisplayQuantityUOM>
+            &lt;ItemBarCode>${#TestCase#ItemBarCode}&lt;/ItemBarCode>
+            &lt;FlexMapFields>
+                &lt;FlexMap>
+                    &lt;Name>${#TestCase#Name}&lt;/Name>
+                    &lt;Value>${#TestCase#Value}&lt;/Value>
+                &lt;/FlexMap>
+            &lt;/FlexMapFields>
+            &lt;ItemSupplierXrefList>
+                &lt;ItemSupplierXref>
+                    &lt;SupplierItemBarcode>${#TestCase#SupplierItemBarcode}&lt;/SupplierItemBarcode>
+                    &lt;ScanQuantity>${#TestCase#ScanQuantity}&lt;/ScanQuantity>
+                &lt;/ItemSupplierXref>
+            &lt;/ItemSupplierXrefList>
+            &lt;ItemFacilityWMSList>
+                &lt;ItemFacilityWMS>
+                    &lt;FacilityName>${#TestCase#FacilityName}&lt;/FacilityName>
+                &lt;/ItemFacilityWMS>
+            &lt;/ItemFacilityWMSList>
+            &lt;ItemPackageList>
+                &lt;ItemPackage>
+                    &lt;PackageUOM>${#TestCase#PackageUOM}&lt;/PackageUOM>
+                    &lt;Quantity>${#TestCase#Quantity}&lt;/Quantity>
+                &lt;/ItemPackage>
+            &lt;/ItemPackageList>
+        &lt;/Item>
+    &lt;/Items>
+&lt;/itm:FSCIPTransaction>
+"/></properties><failure type="Cancelling due to failed test step" message="Cancelling due to failed test step"><![CDATA[<h3><b>Groovy Script Failed</b></h3><pre>java.io.FileNotFoundException: C:\Users\dhavalkumar.sheth\Desktop\soap1\Data\EndToEndFlows2Input2.xls (The process cannot access the file because it is being used by another process)
+error at line: 20
+</pre><hr/>]]></failure></testcase><testcase name="TestCase5" time="0.154"><properties><property name="XMLFile1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;!--Sample XML file generated by XMLSpy v2017 sp2 (x64) (http://www.altova.com)-->
+&lt;itm:FSCIPTransaction xmlns:itm=&quot;fscip.fedex.com&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;fscip.fedex.com FedEx%20%20Supply%20Chain%20Standard%20Item%20Interface.xsd&quot;>
+    &lt;Header>
+        &lt;Source>${#TestCase#Source}&lt;/Source>
+        &lt;ActionType>${#TestCase#ActionType}&lt;/ActionType>
+        &lt;MessageType>${#TestCase#MessageType}&lt;/MessageType>
+        &lt;CompanyID>${#TestCase#CompanyID}&lt;/CompanyID>
+    &lt;/Header>
+    &lt;Items>
+        &lt;Item>
+            &lt;ItemName>${#TestCase#ItemName}&lt;/ItemName>
+            &lt;Description>${#TestCase#Description}&lt;/Description>
+            &lt;DisplayQuantityUOM>${#TestCase#DisplayQuantityUOM}&lt;/DisplayQuantityUOM>
+            &lt;ItemBarCode>${#TestCase#ItemBarCode}&lt;/ItemBarCode>
+            &lt;FlexMapFields>
+                &lt;FlexMap>
+                    &lt;Name>${#TestCase#Name}&lt;/Name>
+                    &lt;Value>${#TestCase#Value}&lt;/Value>
+                &lt;/FlexMap>
+            &lt;/FlexMapFields>
+            &lt;ItemSupplierXrefList>
+                &lt;ItemSupplierXref>
+                    &lt;SupplierItemBarcode>${#TestCase#SupplierItemBarcode}&lt;/SupplierItemBarcode>
+                    &lt;ScanQuantity>${#TestCase#ScanQuantity}&lt;/ScanQuantity>
+                &lt;/ItemSupplierXref>
+            &lt;/ItemSupplierXrefList>
+            &lt;ItemFacilityWMSList>
+                &lt;ItemFacilityWMS>
+                    &lt;FacilityName>${#TestCase#FacilityName}&lt;/FacilityName>
+                &lt;/ItemFacilityWMS>
+            &lt;/ItemFacilityWMSList>
+            &lt;ItemPackageList>
+                &lt;ItemPackage>
+                    &lt;PackageUOM>${#TestCase#PackageUOM}&lt;/PackageUOM>
+                    &lt;Quantity>${#TestCase#Quantity}&lt;/Quantity>
+                &lt;/ItemPackage>
+            &lt;/ItemPackageList>
+        &lt;/Item>
+    &lt;/Items>
+&lt;/itm:FSCIPTransaction>
+"/></properties><failure type="Cancelling due to failed test step" message="Cancelling due to failed test step"><![CDATA[<h3><b>Groovy Script Failed</b></h3><pre>java.io.FileNotFoundException: C:\Users\dhavalkumar.sheth\Desktop\soap1\Data\EndToEndFlows2Input2.xls (The process cannot access the file because it is being used by another process)
+error at line: 20
+</pre><hr/>]]></failure></testcase></testsuite>

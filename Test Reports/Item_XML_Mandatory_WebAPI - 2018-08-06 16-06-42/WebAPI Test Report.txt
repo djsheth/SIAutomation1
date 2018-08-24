@@ -1,0 +1,146 @@
+TOTAL TEST CASES SUCCEED: 56 of 69
+
+- TestCase66 - SUCCEED 
+
+- TestCase26 - SUCCEED 
+
+- TestCase61 - SUCCEED 
+
+- TestCase44 - SUCCEED 
+
+- TestCase40 - SUCCEED 
+
+- TestCase45 - SUCCEED 
+
+- TestCase1 - SUCCEED 
+
+- TestCase54 - SUCCEED 
+
+- TestCase3 - SUCCEED 
+
+- TestCase46 - SUCCEED 
+
+- TestCase6 - SUCCEED 
+
+- TestCase60 - SUCCEED 
+
+- TestCase59 - SUCCEED 
+
+- TestCase39 - SUCCEED 
+
+- TestCase56 - SUCCEED 
+
+- TestCase14 - SUCCEED 
+
+- TestCase65 - SUCCEED 
+
+- TestCase4 - SUCCEED 
+
+- TestCase38 - SUCCEED 
+
+- TestCase27 - SUCCEED 
+
+- TestCase31 - SUCCEED 
+
+- TestCase25 - SUCCEED 
+
+- TestCase55 - SUCCEED 
+
+- TestCase36 - SUCCEED 
+
+- TestCase19 - SUCCEED 
+
+- TestCase15 - SUCCEED 
+
+- TestCase21 - SUCCEED 
+
+- TestCase18 - SUCCEED 
+
+- TestCase7 - SUCCEED 
+
+- TestCase35 - SUCCEED 
+
+- TestCase29 - SUCCEED 
+
+- TestCase41 - SUCCEED 
+
+- TestCase50 - SUCCEED 
+
+- TestCase11 - SUCCEED 
+
+- TestCase12 - SUCCEED 
+
+- TestCase2 - SUCCEED 
+
+- TestCase51 - SUCCEED 
+
+- TestCase34 - SUCCEED 
+
+- TestCase17 - SUCCEED 
+
+- TestCase33 - SUCCEED 
+
+- TestCase30 - SUCCEED 
+
+- TestCase24 - SUCCEED 
+
+- TestCase43 - SUCCEED 
+
+- TestCase8 - SUCCEED 
+
+- TestCase28 - SUCCEED 
+
+- TestCase5 - SUCCEED 
+
+- TestCase9 - SUCCEED 
+
+- TestCase13 - SUCCEED 
+
+- TestCase49 - SUCCEED 
+
+- TestCase22 - SUCCEED 
+
+- TestCase10 - SUCCEED 
+
+- TestCase23 - SUCCEED 
+
+- TestCase20 - SUCCEED 
+
+- TestCase48 - SUCCEED 
+
+- TestCase16 - SUCCEED 
+
+- TestCase64 - SUCCEED 
+
+---
+
+TOTAL TEST CASES FAILED: 13 of 69
+
+- TestCase58 - HAS FAILED 
+
+- TestCase67 - HAS FAILED 
+
+- TestCase53 - HAS FAILED 
+
+- TestCase32 - HAS FAILED 
+
+- TestCase42 - HAS FAILED 
+
+- TestCase62 - HAS FAILED 
+
+- TestCase37 - HAS FAILED 
+
+- TestCase47 - HAS FAILED 
+
+- TestCase57 - HAS FAILED 
+
+- TestCase68 - HAS FAILED 
+
+- TestCase63 - HAS FAILED 
+
+- TestCase52 - HAS FAILED 
+
+- TestCase69 - HAS FAILED 
+
+
+

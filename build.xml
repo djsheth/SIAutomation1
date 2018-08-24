@@ -1,0 +1,18 @@
+<project basedir="." default="testreport" name="SIAutomation">
+
+<target name="SoapUI">
+ <exec dir="." executable="C:\Software\SoapUI-5.4.0\bin\testrunner.bat">
+ <arg line="-r -j -o -f 'C:\Users\dhavalkumar.sheth\Desktop\soap1' -sEndToEndFlows2 'C:\Users\dhavalkumar.sheth\Desktop\soap1\SIAutomtion.xml'"></arg>
+ </exec>
+</target>
+
+<target name="testreport" depends="SoapUI">
+ <junitreport todir="C:\Users\dhavalkumar.sheth\Desktop\soap1">
+  <fileset dir="C:\Users\dhavalkumar.sheth\Desktop\soap1">
+   <include name="TEST-*.xml"/>
+  </fileset>
+  <report todir="C:\Users\dhavalkumar.sheth\Desktop\soap1\HTML">
+  </report>
+ </junitreport>
+</target>
+</project>

@@ -1,0 +1,8 @@
+Status: OK
+Time Taken: 2202
+Size: 0
+Timestamp: Mon Aug 20 18:59:08 EDT 2018
+TestStep: Groovy Script
+
+----------------- Messages ------------------------------
+Script-result: com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@14da3eb

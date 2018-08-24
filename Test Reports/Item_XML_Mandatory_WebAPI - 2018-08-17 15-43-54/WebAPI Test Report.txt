@@ -1,0 +1,28 @@
+TOTAL TEST CASES SUCCEED: 7 of 10
+
+- TestCase4 - SUCCEED 
+
+- TestCase3 - SUCCEED 
+
+- TestCase5 - SUCCEED 
+
+- TestCase9 - SUCCEED 
+
+- TestCase2 - SUCCEED 
+
+- TestCase6 - SUCCEED 
+
+- TestCase1 - SUCCEED 
+
+---
+
+TOTAL TEST CASES FAILED: 3 of 10
+
+- TestCase7 - HAS FAILED 
+
+- TestCase8 - HAS FAILED 
+
+- TestCase10 - HAS FAILED 
+
+
+

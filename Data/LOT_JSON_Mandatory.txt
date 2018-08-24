@@ -1,0 +1,41 @@
+{
+	"Header": {
+		"Source": "${#TestCase#Source}",
+		"ActionType": "${#TestCase#ActionType}",
+		"MessageID": "",
+		"MessageType": "${#TestCase#MessageType}",
+		"CompanyID": "${#TestCase#CompanyID}",
+		"Locale": "English",
+		"TimeZone": "US",
+		"Version": "",
+		"ReferenceID": "",
+		"ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+	},
+	"Lots": {
+		"Lot": [
+			{
+				"DestinationFacilityName": "${#TestCase#DestinationFacilityName}",
+				"LotNumber": "${#TestCase#LotNumber}",
+				"StatusCode": ${#TestCase#StatusCode},
+				"ItemName": "${#TestCase#ItemName}",
+				"ExpireDate": "04/12/2019",
+				"ExpireFlag": "N",
+				"ManufactureRecallDate": "04/12/2017",
+				"ManufactureRecallFlag": "N",
+				"ILpnLockCodeHeld": "QH",
+				"ILpnLockCodeExpiredRecord": "QH",
+				"PickLockCodeHeld": "QH",
+				"PickLockCodeExpiredRecord": "QH",
+				"AuthorisationNumber": "A",
+				"BusinessPartner": "9876543",
+				"BusinessPartnerBatchNumber": "96255501",
+				"SpecialInstructionCode1": "1",
+				"SpecialInstructionCode2": "1",
+				"MiscellaneousInstructionCode1": "123",
+				"MiscellaneousInstructionCode2": "123",
+				"NumericValue1": 0.1,
+				"NumericValue2": 0.1
+			}
+		]
+	}
+}

@@ -1,0 +1,117 @@
+{
+                    "Header": {
+      "Source": "${#TestCase#Source}",
+      "ActionType": "${#TestCase#ActionType}",
+      "MessageID": "${#TestCase#MessageID}",
+      "MessageType": "${#TestCase#MessageType}",
+      "CompanyID": "${#TestCase#CompanyID}",
+      "Locale": "${#TestCase#Locale}",
+      "TimeZone": "${#TestCase#TimeZone}",
+      "Version": "${#TestCase#Version}",
+      "ReferenceID": "${#TestCase#ReferenceID}",
+      "ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+                },
+                "Items": {
+                                "Item": [
+                                                {
+                                                                                                "ItemName": "${#TestCase#ItemName}",
+                                                                                                "Description": "${#TestCase#Description}",
+                                                                                                "LongDescription": "${#TestCase#LongDescription}",
+                                                                                                "CommodityCode": "${#TestCase#CommodityCode}",
+                                                                                                "StorageUOM": "${#TestCase#StorageUOM}",
+                                                                                                "ItemUpcGtin": "${#TestCase#ItemUpcGtin}",
+                                                                                                "NetWeight": "${#TestCase#NetWeight}",
+                                                                                                "GrossWeight": "${#TestCase#GrossWeight}",
+                                                                                                "WeightUOM": "${#TestCase#WeightUOM}",
+                                                                                                "UnitVolume": "${#TestCase#UnitVolume}",
+                                                                                                "VolumeUOM": "${#TestCase#VolumeUOM}",
+                                                                                                "UnitHeight": "${#TestCase#UnitHeight}",
+                                                                                                "UnitWidth": "${#TestCase#UnitWidth}",
+                                                                                                "UnitLength": "${#TestCase#UnitLength}",
+                                                                                                "DimensionUOM": "${#TestCase#DimensionUOM}",
+                                                                                                "DisplayQuantityUOM": "${#TestCase#DisplayQuantityUOM}",
+                                                                                                "CommodityLevelDescription": "${#TestCase#CommodityLevelDescription}",
+                                                                                                "ItemBarCode": "00643169766600",
+                                                                                                "ProductType": "${#TestCase#ProductType}",
+                                                                                                "ItemProfileName": "HNYCMB",
+                                                                                                "TypeCode": "${#TestCase#TypeCode}",
+                                                                                                "DefaultAssetType": "${#TestCase#DefaultAssetType}",
+                                                                                                "ReferenceNumberField2": "0",
+                                                                                                "ReferenceNumberField3": "0",
+                                                                                                "ReferenceNumberField4": "0",
+                                                                                                "ReferenceNumberField5": "0",
+                                                                                                "VelocityCode": "${#TestCase#VelocityCode}",
+                                                                                                "Model": "${#TestCase#Model}",
+                                                                                                "Make": "${#TestCase#Make}",
+                                                                                                "LPNType": "${#TestCase#LPNType}",
+                                                                                                "UnitPrice": "${#TestCase#UnitPrice}",
+                                                                                                "MaximumReceivingToexpireDays": "${#TestCase#MaximumReceivingToexpireDays}",
+                                                                                                "AverageDailyDemand": "${#TestCase#AverageDailyDemand}",
+                                                                                                "ConsumePriorityDateCode": "${#TestCase#ConsumePriorityDateCode}",
+                                                                                                "ConsumePriorityDateWindow": "${#TestCase#ConsumePriorityDateWindow}",
+                                                                                                "ConsumePriorityDateWindowIncrement": "${#TestCase#ConsumePriorityDateWindowIncrement}",
+                                                                                                "ManufacturingDateRequired": "${#TestCase#ManufacturingDateRequired}",
+                                                                                                "LotRequired": "${#TestCase#LotRequired}",
+                                                                                                "InventoryStatusRequired": "${#TestCase#InventoryStatusRequired}",
+                                                                                                "CountryOfOriginRequired": "${#TestCase#CountryOfOriginRequired}",
+                                                                                                "ShelfDays": "${#TestCase#ShelfDays}",
+                                                                                                "TemperatureZone": "${#TestCase#TemperatureZone}",
+                                                                                                "BuyerDispositionCode": "${#TestCase#BuyerDispositionCode}",
+                                                                                                "StoreDepartment": "${#TestCase#StoreDepartment}",
+                                                                                                "ReceivableFlag": "${#TestCase#ReceivableFlag}",
+                                                                                                "SerialNumberRequired": "${#TestCase#SerialNumberRequired}",
+                                                                                                "SerialNumberBarcodeType": "${#TestCase#SerialNumberBarcodeType}",
+                                                                                                "DuplicateSerialNumberFlag": "${#TestCase#DuplicateSerialNumberFlag}",
+                                                                                                "MinimumReceiveToExpireDays": "${#TestCase#MinimumReceiveToExpireDays}",
+                                                                                                "ProductCategory": "${#TestCase#ProductCategory}",
+                                                                                                "MarkForDeletion": "${#TestCase#MarkForDeletion}",
+                                                                "FlexMapFields": {
+                                                                                "FlexMap": [
+                                                                                                {
+                                                                                                                "Name": "${#TestCase#Name}",
+                                                                                                                "Value": "${#TestCase#Value}"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "ItemSupplierXrefList": {
+                                                                                "ItemSupplierXref": [
+                                                                                                {
+                                                                                                "SupplierItemBarcode": "${#TestCase#SupplierItemBarcode}",
+                                                                                                "ScanQuantity": "${#TestCase#ScanQuantity}",
+                                                                                                "MarkForDeletion": "${#TestCase#MarkForDeletion}"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "ItemFacilityWMSList": {
+                                                                                "ItemFacilityWMS": [
+                                                                                                {
+                                                                                                                  "FacilityName": "${#TestCase#FacilityName}",
+                                                                                                                                "LPNPerTier": "${#TestCase#LPNPerTier}",
+                                                                                                                                "TierPerPallet": "${#TestCase#TierPerPallet}",
+                                                                                                                                "QualityInspectGroup": "${#TestCase#QualityInspectGroup}"
+                                                                                                }
+                                                                                ]
+                                                                },
+                                                                "ItemPackageList": {
+                                                                                "ItemPackage": [
+                                                                                                {
+                                                                                                                "PackageUOM": "${#TestCase#PackageUOM}",
+                                                                                                                "NetWeight": "${#TestCase#NetWeight}",
+                                                                                                                "Quantity": "${#TestCase#Quantity}",
+                                                                                                                "WeightUOM": "${#TestCase#WeightUOM}",
+                                                                                                                "Gtin": "${#TestCase#Gtin}",
+                                                                                                                "UnitLength": "${#TestCase#UnitLength}",
+                                                                                                                "UnitHeight": "${#TestCase#UnitHeight}",
+                                                                                                                "UnitWidth": "${#TestCase#UnitWidth}",
+                                                                                                                "DimensionUOM": "${#TestCase#DimensionUOM}",
+                                                                                                                "isStandardUOM": "${#TestCase#isStandardUOM}",
+                                                                                                                "MarkForDeletion": "${#TestCase#MarkForDeletion}"
+                                                                                                }
+                                                                                ]
+                                                                }
+                                                }
+                                                                                                               
+                                               
+                                ]
+                }
+}

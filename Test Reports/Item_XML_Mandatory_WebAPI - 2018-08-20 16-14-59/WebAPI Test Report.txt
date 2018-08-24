@@ -1,0 +1,188 @@
+TOTAL TEST CASES SUCCEED: 90 of 90
+
+- TestCase59 - SUCCEED 
+
+- TestCase44 - SUCCEED 
+
+- TestCase33 - SUCCEED 
+
+- TestCase75 - SUCCEED 
+
+- TestCase87 - SUCCEED 
+
+- TestCase60 - SUCCEED 
+
+- TestCase67 - SUCCEED 
+
+- TestCase90 - SUCCEED 
+
+- TestCase15 - SUCCEED 
+
+- TestCase57 - SUCCEED 
+
+- TestCase70 - SUCCEED 
+
+- TestCase74 - SUCCEED 
+
+- TestCase24 - SUCCEED 
+
+- TestCase45 - SUCCEED 
+
+- TestCase64 - SUCCEED 
+
+- TestCase16 - SUCCEED 
+
+- TestCase28 - SUCCEED 
+
+- TestCase11 - SUCCEED 
+
+- TestCase52 - SUCCEED 
+
+- TestCase72 - SUCCEED 
+
+- TestCase40 - SUCCEED 
+
+- TestCase50 - SUCCEED 
+
+- TestCase38 - SUCCEED 
+
+- TestCase13 - SUCCEED 
+
+- TestCase48 - SUCCEED 
+
+- TestCase36 - SUCCEED 
+
+- TestCase26 - SUCCEED 
+
+- TestCase14 - SUCCEED 
+
+- TestCase20 - SUCCEED 
+
+- TestCase79 - SUCCEED 
+
+- TestCase81 - SUCCEED 
+
+- TestCase35 - SUCCEED 
+
+- TestCase63 - SUCCEED 
+
+- TestCase29 - SUCCEED 
+
+- TestCase17 - SUCCEED 
+
+- TestCase84 - SUCCEED 
+
+- TestCase3 - SUCCEED 
+
+- TestCase46 - SUCCEED 
+
+- TestCase58 - SUCCEED 
+
+- TestCase83 - SUCCEED 
+
+- TestCase25 - SUCCEED 
+
+- TestCase61 - SUCCEED 
+
+- TestCase66 - SUCCEED 
+
+- TestCase2 - SUCCEED 
+
+- TestCase21 - SUCCEED 
+
+- TestCase71 - SUCCEED 
+
+- TestCase10 - SUCCEED 
+
+- TestCase65 - SUCCEED 
+
+- TestCase42 - SUCCEED 
+
+- TestCase9 - SUCCEED 
+
+- TestCase6 - SUCCEED 
+
+- TestCase51 - SUCCEED 
+
+- TestCase73 - SUCCEED 
+
+- TestCase85 - SUCCEED 
+
+- TestCase88 - SUCCEED 
+
+- TestCase30 - SUCCEED 
+
+- TestCase41 - SUCCEED 
+
+- TestCase22 - SUCCEED 
+
+- TestCase54 - SUCCEED 
+
+- TestCase39 - SUCCEED 
+
+- TestCase7 - SUCCEED 
+
+- TestCase4 - SUCCEED 
+
+- TestCase8 - SUCCEED 
+
+- TestCase82 - SUCCEED 
+
+- TestCase1 - SUCCEED 
+
+- TestCase76 - SUCCEED 
+
+- TestCase5 - SUCCEED 
+
+- TestCase27 - SUCCEED 
+
+- TestCase77 - SUCCEED 
+
+- TestCase32 - SUCCEED 
+
+- TestCase53 - SUCCEED 
+
+- TestCase68 - SUCCEED 
+
+- TestCase19 - SUCCEED 
+
+- TestCase78 - SUCCEED 
+
+- TestCase49 - SUCCEED 
+
+- TestCase69 - SUCCEED 
+
+- TestCase18 - SUCCEED 
+
+- TestCase23 - SUCCEED 
+
+- TestCase89 - SUCCEED 
+
+- TestCase80 - SUCCEED 
+
+- TestCase31 - SUCCEED 
+
+- TestCase43 - SUCCEED 
+
+- TestCase86 - SUCCEED 
+
+- TestCase55 - SUCCEED 
+
+- TestCase47 - SUCCEED 
+
+- TestCase62 - SUCCEED 
+
+- TestCase12 - SUCCEED 
+
+- TestCase37 - SUCCEED 
+
+- TestCase34 - SUCCEED 
+
+- TestCase56 - SUCCEED 
+
+---
+
+TOTAL TEST CASES FAILED: 0 of 90
+
+
+

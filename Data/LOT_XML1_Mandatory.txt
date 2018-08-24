@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lot:FSCIPTransaction xmlns:lot="http://com.supplychain.fedex/lot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://com.supplychain.fedex/lot FedEx%20%20Supply%20Chain%20Standard%20Lot%20Interface.xsd">
+                <Header>
+                                <Source>${#TestCase#Source}</Source>
+                                <ActionType>${#TestCase#ActionType}</ActionType>
+                                <MessageId/>
+                                <MessageType>${#TestCase#MessageType}</MessageType>
+                                <CompanyID>${#TestCase#CompanyID}</CompanyID>
+                                <Locale>English (United States)</Locale>
+                                <TimeZone>US/Central</TimeZone>
+                                <Version></Version>
+                                <ReferenceId/>
+                                <ExternalDateTimeStamp>${#TestCase#ExternalDateTimeStamp}</ExternalDateTimeStamp>
+                </Header>
+                <Lots>
+                                <Lot>
+                                                <DestinationFacilityName>${#TestCase#DestinationFacilityName}</DestinationFacilityName>
+                                                <LotNumber>${#TestCase#LotNumber}</LotNumber>
+                                                <StatusCode>${#TestCase#StatusCode}</StatusCode>
+                                                <ItemName>${#TestCase#ItemName}</ItemName>
+                                                <ExpireDate>04/12/2019</ExpireDate>
+                                                <ExpireFlag>N</ExpireFlag>
+                                                <ManufactureRecallDate>04/12/2017</ManufactureRecallDate>
+                                                <ManufactureRecallFlag>N</ManufactureRecallFlag>
+                                                <ILpnLockCodeHeld>QH</ILpnLockCodeHeld>
+                                                <ILpnLockCodeExpiredRecord>QH</ILpnLockCodeExpiredRecord>
+                                                <PickLockCodeHeld>QH</PickLockCodeHeld>
+                                                <PickLockCodeExpiredRecord>QH</PickLockCodeExpiredRecord>
+                                                <AuthorisationNumber>A</AuthorisationNumber>
+                                                <BusinessPartner>9876543</BusinessPartner>
+                                                <BusinessPartnerBatchNumber>96255501</BusinessPartnerBatchNumber>
+                                                <SpecialInstructionCode1>1</SpecialInstructionCode1>
+                                                <SpecialInstructionCode2>1</SpecialInstructionCode2>
+                                                <MiscellaneousInstructionCode1>123</MiscellaneousInstructionCode1>
+                                                <MiscellaneousInstructionCode2>123</MiscellaneousInstructionCode2>
+                                                <NumericValue1>0.1</NumericValue1>
+                                                <NumericValue2>0.1</NumericValue2>
+                                </Lot>
+                </Lots>
+</lot:FSCIPTransaction>
