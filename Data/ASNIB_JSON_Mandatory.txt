@@ -1,0 +1,150 @@
+{
+  
+    "Header": {
+      "Source": "${#TestCase#Source}",
+      "ActionType": "${#TestCase#ActionType}",
+      "MessageType": "${#TestCase#MessageType}",
+      "CompanyID": "${#TestCase#CompanyID}",
+      "Locale": "English (United States)",
+      "TimeZone": "EST",
+      "ExternalDateTimeStamp": "${#TestCase#ExternalDateTimeStamp}"
+    },
+    "Asns": {
+      "Asn": {
+        "AsnNumber": "${#TestCase#AsnNumber}",
+        "LastTransmittedDateTime": "2001-12-17T09:30:47Z",
+        "AsnStatus": "${#TestCase#AsnStatus}",
+        "DestinationFacilityName": "${#TestCase#DestinationFacilityName}",
+        "ExpectedArrivalDate": "2001-12-17T09:30:47Z",
+        "ExpectedDeliveryEndDate": "2001-12-17T09:30:47Z",
+        "BillOfLadingNumber": "239847398",
+        "PRONumber": "39846346578436",
+        "TractorNumber": "3278654874365",
+        "ReferenceNumberField1": "0",
+        "ReferenceNumberField2": "0",
+        "ReferenceNumberField3": "0",
+        "ReferenceNumberField4": "0",
+        "ReferenceNumberField5": "0",
+        "OriginType": "S",
+        "ExpectedReceiptDate": "2001-12-17T09:30:47Z",
+        "ShipmentInformation": {
+          "FedExManaged": "true",
+          "FreightShipment": "true",
+          "ExpectedArrivalDate": "2001-12-17T09:30:47Z",
+          "PickupStartDateTime": "2001-12-17T09:30:47Z",
+          "PickupEndDateTime": "2001-12-17T09:30:47Z",
+          "InsidePickUp": "true",
+          "LiftGateAtPickup": "true",
+          "LimitedAccess": "true",
+          "ShipmentServices": { "ServiceLevelCode": "0" },
+          "ProductLevelServices": { "ServiceLevelCode": "0" }
+        },
+        "Notes": {
+          "Note": "${#TestCase#Note}",
+          "Visibility": "0"
+        },
+        "FlexMapFields": {
+          "FlexMap": {
+            "Name": "${#TestCase#Name}",
+            "Value": "a"
+          }
+        },
+        "AsnDetail": {
+          "SequenceNumber": "${#TestCase#SequenceNumber}",
+          "LineStatus": "${#TestCase#LineStatus}",
+          "ItemName": "${#TestCase#ItemName}",
+          "ExpireDate": "2001-12-17T09:30:47Z",
+          "QCHoldUponReceipt": "Y",
+          "PutawayType": "String",
+          "ReferenceNumberField1": "0",
+          "ReferenceNumberField2": "0",
+          "ReferenceNumberField3": "0",
+          "ReferenceNumberField4": "0",
+          "ReferenceNumberField5": "0",
+          "CountryofOrigin": "US",
+          "ShippedQuantity": "${#TestCase#ShippedQuantity}",
+          "QuantityUOM": "${#TestCase#QuantityUOM}",
+          "FlexMapFields": {
+            "FlexMap": {
+              "Name": "${#TestCase#Name}",
+              "Value": "a"
+            }
+          }
+        },
+        "Lpns": {
+          "Lpn": {
+            "LpnId": "${#TestCase#LpnId}",
+            "NumberOfLikeCase": "0",
+            "CustomContainerIds": "a",
+            "LpnType": "${#TestCase#LpnType}",
+            "LpnStatus": "${#TestCase#LpnStatus}",
+            "Height": "0",
+            "Width": "0",
+            "Length": "0",
+            "Stackable": "true",
+            "PalletID": "34534",
+            "ManufacturedDateTime": "2001-12-17T09:30:47Z",
+            "ExpireDate": "2001-12-17T09:30:47Z",
+            "PurchaseOrderID": "34534",
+            "EstimatedWeight": "0",
+            "EstimatedVolume": "0",
+            "ActualVolume": "0",
+            "ReferenceNumberField1": "0",
+            "ReferenceNumberField2": "0",
+            "ReferenceNumberField3": "0",
+            "ReferenceNumberField4": "0",
+            "ReferenceNumberField5": "0",
+            "Notes": {
+              "Note": {
+                "Visibility": "0",
+                "Note": "${#TestCase#Note}"
+              }
+            },
+            "FlexMapFields": {
+              "FlexMap": {
+                "Name": "${#TestCase#Name}",
+                "Value": "a"
+              }
+            },
+            "LpnDetail": {
+              "ItemName": "${#TestCase#ItemName}",
+              "ExpireDate": "2001-12-17T09:30:47Z",
+              "ReferenceNumberField1": "0",
+              "ReferenceNumberField2": "0",
+              "ReferenceNumberField3": "0",
+              "ReferenceNumberField4": "0",
+              "ReferenceNumberField5": "0",
+              "LPNDetailQuantity": {
+                "Quantity": "${#TestCase#Quantity}",
+                "QuantityUOM": "${#TestCase#QuantityUOM}",
+                "EstimatedWeight": "0",
+                "Weight": "0",
+                "EstimatedVolume": "0"
+              },
+              "InventoryAttributes": {
+                
+              },
+              "FlexMapFields": {
+                "FlexMap": {
+                  "Name": "${#TestCase#Name}",
+                  "Value": "a"
+                }
+              }
+            }
+          }
+        },
+        "SerialNumberTrack": {
+          "SerialNumber": "${#TestCase#SerialNumber}",
+          "SequenceNumber": "${#TestCase#SequenceNumber}",
+          "StatusCode": "${#TestCase#StatusCode}",
+          "ItemName": "${#TestCase#ItemName}",
+          "LPNLineNumber": "0",
+          "AsnLineNumber": "0",
+          "MinorSerialNumberRecord": {
+            "MinorSequenceNumber": "0",
+            "StatusCode": "0"
+          }
+        }
+      }
+    }
+  }

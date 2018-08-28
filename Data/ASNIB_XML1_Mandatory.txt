@@ -17,7 +17,7 @@
 		<Asn>
 			<AsnNumber>${#TestCase#AsnNumber}</AsnNumber>
 			<LastTransmittedDateTime>2001-12-17T09:30:47Z</LastTransmittedDateTime>
-			<AsnStatus>${#TestCase#AsnNumber}</AsnStatus>
+			<AsnStatus>${#TestCase#AsnStatus}</AsnStatus>
 			<SupplierNumber/>
 			<OriginFacilityAliasID/>
 			<DestinationFacilityName>${#TestCase#DestinationFacilityName}</DestinationFacilityName>
@@ -93,7 +93,7 @@
 				<ItemName>${#TestCase#ItemName}</ItemName>
 				<GITN/>
 				<PackageType/>
-				<ExpireDate>1957-08-13</ExpireDate>
+				<ExpireDate>2001-12-17T09:30:47Z</ExpireDate>
 				<QCHoldUponReceipt>Y</QCHoldUponReceipt>
 				<PutawayType>String</PutawayType>
 				<ProcessImmediateNeeds/>
@@ -129,11 +129,11 @@
 			</AsnDetail>
 			<Lpns>
 				<Lpn>
-					<LPNID>${#TestCase#LPNID}</LPNID>
+					<LpnId>${#TestCase#LpnId}</LpnId>
 					<NumberOfLikeCase>0</NumberOfLikeCase>
 					<CustomContainerIds>a</CustomContainerIds>
-					<LPNType>${#TestCase#LPNType}</LPNType>
-					<LPNStatus>${#TestCase#LPNStatus}</LPNStatus>
+					<LpnType>${#TestCase#LpnType}</LpnType>
+					<LpnStatus>${#TestCase#LpnStatus}</LpnStatus>
 					<Height>0</Height>
 					<Width>0</Width>
 					<Length>0</Length>
@@ -147,7 +147,7 @@
 					<PalletID>34534</PalletID>
 					<PalletContentCode/>
 					<ManufacturedDateTime>2001-12-17T09:30:47Z</ManufacturedDateTime>
-					<ExpireDate>1957-08-13</ExpireDate>
+					<ExpireDate>2001-12-17T09:30:47Z</ExpireDate>
 					<PurchaseOrderID>34534</PurchaseOrderID>
 					<ManifestNumber/>
 					<EstimatedWeight>0</EstimatedWeight>
@@ -186,7 +186,7 @@
 						<PurchaseOrderLineItemID/>
 						<DistributionOrderLineItemID/>
 						<GTIN/>
-						<ExpireDate>1957-08-13</ExpireDate>
+						<ExpireDate>2001-12-17T09:30:47Z</ExpireDate>
 						<CutNumber/>
 						<ReferenceField1/>
 						<ReferenceField2/>
@@ -239,7 +239,7 @@
 				<MinorSerialNumberRecord>
 					<MinorSerialNumber/>
 					<MinorSequenceNumber>0</MinorSequenceNumber>
-					<StatusCode>0</StatusCode>
+					<StatusCode>${#TestCase#StatusCode}</StatusCode>
 				</MinorSerialNumberRecord>
 			</SerialNumberTrack>
 		</Asn>
