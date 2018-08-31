@@ -1,8 +1,0 @@
-Status: FAILED
-Time Taken: 11582
-Size: 0
-Timestamp: Mon Aug 20 18:58:57 EDT 2018
-TestStep: Groovy Script
-
------------------ Messages ------------------------------
-Script-result: com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@4b5de4cd
